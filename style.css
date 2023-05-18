@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Plus Jakarta Sans";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    width: 100vw;
+    height: auto;
+}
+
+.container {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem 1.6rem 4.5rem 1.6rem;
+    width: 37.5rem;
+    height: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2.4rem;
+    height: 2.5rem;
+}
+
+.notifications {
+    color: #1C202B;
+    font-size: 2rem;
+    line-height: 2.52rem;
+    font-weight: 800;
+}
+
+#number_div {
+    background-color: #0A327B;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    line-height: 2.016rem;
+    font-weight: 800;
+    border-radius: 0.6rem;
+    margin-right: 6rem;
+    width: 3.2rem;
+    height: 2.5rem;
+}
+
+#read_para {
+    color: #5E6778;
+    font-size: 1.4rem;
+    line-height: 1.764rem;
+    font-weight: 500;
+    text-align: right;
+    cursor: pointer;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
+    margin-bottom: 2.6rem;
+    padding: 1.6rem 2.7rem 1.6rem 1.6rem;
+}
+
+.text_div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.anna_chat {
+    margin-bottom: 0;
+}
+
+.rizky_chat {
+    height: 19.9rem;
+}
+
+.mark_chat,
+.angela_chat,
+.jacob_chat {
+    background-color: #F7FAFD;
+    position: relative;
+    margin-bottom: 1rem;
+    border-radius: 0.8rem;
+}
+
+.img_div,
+.img_div2 {
+    width: 3.9rem;
+    height: 3.9rem;
+}
+
+.img_div img {
+    height: 100%;
+}
+
+.img_div2 img {
+    height: 100%;
+    cursor: pointer;
+}
+
+.para {
+    color: #5E6778;
+    font-size: 1.4rem;
+    line-height: 1.764rem;
+    font-weight: 500;
+}
+
+.name {
+    color: #1C202B;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.span2 {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.club {
+    color: #0A327B;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#red_circle {
+    background-color: #F65552;
+    position: absolute;
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.one_red {
+    margin-top: 2.27rem;
+    margin-left: 22rem;
+}
+
+.two_red {
+    margin-top: 0.6rem;
+    margin-left: 17.8rem;
+}
+
+.three_red {
+    margin-top: 2.27rem;
+    margin-left: 12.5rem;
+}
+
+.time_ago {
+    color: #939CAD;
+    font-size: 1.4rem;
+    line-height: 1.764rem;
+    font-weight: 500;
+}
+
+.message {
+    border: 0.1rem solid #DDE7EE;
+    color: #5E6778;
+    font-size: 1.4rem;
+    line-height: 1.764rem;
+    margin-top: 1.2rem;
+    padding: 1.6rem;
+    cursor: pointer;
+}
+
+.message:hover {
+    background: linear-gradient(0deg, #E5EFFA, #E5EFFA),
+    linear-gradient(0deg, #DDE7EE, #DDE7EE);
+    border: 1px solid #DDE7EE;
+}
+
+.name:hover {
+    color: #0A327B;
+}
+
+#read_para:hover {
+    color: #0A327B;
+}
+
+.span2:hover {
+    color: #0A327B;
+}
+
+@media screen and (min-width: 1400px) {
+
+    body {
+        height: 100vh;
+    }
+
+    .container {
+        border-radius: 1.5rem;
+        padding: 3.5rem 3rem 1.7rem 3rem;
+        width: 73rem;
+        height: auto;
+    }
+
+    .img_div2 img {
+        margin-left: 18rem;
+    }
+
+    #number_div {
+        margin-right: 35rem;
+    }
+
+    .one_red {
+        margin-top: 0.8rem;
+        margin-left: 53.5rem;
+    }
+
+    .two_red {
+        margin-left: 20.5rem;
+    }
+
+    .three_red {
+        margin-top: 0.7rem;
+        margin-left: 39.5rem;
+    }
+
+    .rizky_chat {
+        height: 19.2rem;
+    }
+
+    .message {
+        padding: 1.7rem 2rem 2rem 2rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .notifications {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    #read_para,
+    .para {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .img_div,
+    .img_div2 {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+}
